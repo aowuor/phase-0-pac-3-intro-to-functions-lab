@@ -24,18 +24,16 @@ function logWhisper(greeting){
 }
 logWhisper("HELLO")
 
-function sayHiToHeadphonedRoommate(greet){
 
 
-}
 
-function sayHiToHeadphonedRoommate(greet){
-    if(greet === greet.toLowerCase()){
+function sayHiToHeadphonedRoommate(string){
+    if (string === "Let's have dinner together!"){
+        return(console.log("I would love to!"));
+    }else if(string === string.toLowerCase()){
         return(console.log("I can\'t hear you!"));
-    }else if(greet === greet.toUpperCase()){
-        return console.log(("YES INDEED!"))
-    }else if(greet === "Let's have dinner together!"){
-        return console.log("I would love to!")
+    }else if(string.toUpperCase() === string){
+        return console.log(("YES INDEED!"));
     }
 }
 sayHiToHeadphonedRoommate('hello');
